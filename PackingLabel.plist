@@ -5,8 +5,11 @@
 	<key>endpoint_url</key>
 	<string>http://www.google.com/some_secret_api</string>
 	<key>endpoint_object_mapping</key>
-	<dict/>
-	<key>Some Class Type</key>
-	<string></string>
+	<dict>
+		<key>SomeOtherClassName</key>
+		<string>/relative_url/:int/another_url/:string</string>
+		<key>SomeURLDescription</key>
+		<string>/relative_url/:int/</string>
+	</dict>
 </dict>
 </plist>
