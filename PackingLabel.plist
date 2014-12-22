@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>endpoint_url</key>
+	<string>http://www.google.com/some_secret_api</string>
+	<key>endpoint_object_mapping</key>
+	<dict/>
+	<key>Some Class Type</key>
+	<string></string>
+</dict>
+</plist>

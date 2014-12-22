@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40CECEED1A47AF8100EF87D4 /* CandyWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 40CECEEC1A47AF8100EF87D4 /* CandyWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40CECEF31A47AF8100EF87D4 /* CandyWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CECEE71A47AF8100EF87D4 /* CandyWrapper.framework */; };
+		40CECEFA1A47AF8100EF87D4 /* CandyWrapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CECEF91A47AF8100EF87D4 /* CandyWrapperTests.m */; };
+		40CECF051A47B05700EF87D4 /* CWStarburst.h in Headers */ = {isa = PBXBuildFile; fileRef = 40CECF031A47B05700EF87D4 /* CWStarburst.h */; };
+		40CECF061A47B05700EF87D4 /* CWStarburst.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CECF041A47B05700EF87D4 /* CWStarburst.m */; };
+		40CECF081A47B26500EF87D4 /* PackingLabel.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40CECF071A47B26500EF87D4 /* PackingLabel.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40CECEF41A47AF8100EF87D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40CECEDE1A47AF8100EF87D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40CECEE61A47AF8100EF87D4;
+			remoteInfo = CandyWrapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40CECEE71A47AF8100EF87D4 /* CandyWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CandyWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40CECEEB1A47AF8100EF87D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40CECEEC1A47AF8100EF87D4 /* CandyWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CandyWrapper.h; sourceTree = "<group>"; };
+		40CECEF21A47AF8100EF87D4 /* CandyWrapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandyWrapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40CECEF81A47AF8100EF87D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40CECEF91A47AF8100EF87D4 /* CandyWrapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CandyWrapperTests.m; sourceTree = "<group>"; };
+		40CECF031A47B05700EF87D4 /* CWStarburst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWStarburst.h; sourceTree = "<group>"; };
+		40CECF041A47B05700EF87D4 /* CWStarburst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWStarburst.m; sourceTree = "<group>"; };
+		40CECF071A47B26500EF87D4 /* PackingLabel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PackingLabel.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40CECEE31A47AF8100EF87D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CECEEF1A47AF8100EF87D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CECEF31A47AF8100EF87D4 /* CandyWrapper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40CECEDD1A47AF8100EF87D4 = {
+			isa = PBXGroup;
+			children = (
+				40CECF071A47B26500EF87D4 /* PackingLabel.plist */,
+				40CECEE91A47AF8100EF87D4 /* CandyWrapper */,
+				40CECEF61A47AF8100EF87D4 /* CandyWrapperTests */,
+				40CECEE81A47AF8100EF87D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40CECEE81A47AF8100EF87D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40CECEE71A47AF8100EF87D4 /* CandyWrapper.framework */,
+				40CECEF21A47AF8100EF87D4 /* CandyWrapperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40CECEE91A47AF8100EF87D4 /* CandyWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				40CECEEC1A47AF8100EF87D4 /* CandyWrapper.h */,
+				40CECEEA1A47AF8100EF87D4 /* Supporting Files */,
+				40CECF031A47B05700EF87D4 /* CWStarburst.h */,
+				40CECF041A47B05700EF87D4 /* CWStarburst.m */,
+			);
+			path = CandyWrapper;
+			sourceTree = "<group>";
+		};
+		40CECEEA1A47AF8100EF87D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40CECEEB1A47AF8100EF87D4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40CECEF61A47AF8100EF87D4 /* CandyWrapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				40CECEF91A47AF8100EF87D4 /* CandyWrapperTests.m */,
+				40CECEF71A47AF8100EF87D4 /* Supporting Files */,
+			);
+			path = CandyWrapperTests;
+			sourceTree = "<group>";
+		};
+		40CECEF71A47AF8100EF87D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40CECEF81A47AF8100EF87D4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		40CECEE41A47AF8100EF87D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CECEED1A47AF8100EF87D4 /* CandyWrapper.h in Headers */,
+				40CECF051A47B05700EF87D4 /* CWStarburst.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		40CECEE61A47AF8100EF87D4 /* CandyWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40CECEFD1A47AF8100EF87D4 /* Build configuration list for PBXNativeTarget "CandyWrapper" */;
+			buildPhases = (
+				40CECEE21A47AF8100EF87D4 /* Sources */,
+				40CECEE31A47AF8100EF87D4 /* Frameworks */,
+				40CECEE41A47AF8100EF87D4 /* Headers */,
+				40CECEE51A47AF8100EF87D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CandyWrapper;
+			productName = CandyWrapper;
+			productReference = 40CECEE71A47AF8100EF87D4 /* CandyWrapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		40CECEF11A47AF8100EF87D4 /* CandyWrapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40CECF001A47AF8100EF87D4 /* Build configuration list for PBXNativeTarget "CandyWrapperTests" */;
+			buildPhases = (
+				40CECEEE1A47AF8100EF87D4 /* Sources */,
+				40CECEEF1A47AF8100EF87D4 /* Frameworks */,
+				40CECEF01A47AF8100EF87D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40CECEF51A47AF8100EF87D4 /* PBXTargetDependency */,
+			);
+			name = CandyWrapperTests;
+			productName = CandyWrapperTests;
+			productReference = 40CECEF21A47AF8100EF87D4 /* CandyWrapperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40CECEDE1A47AF8100EF87D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Cameron Webb";
+				TargetAttributes = {
+					40CECEE61A47AF8100EF87D4 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					40CECEF11A47AF8100EF87D4 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 40CECEE11A47AF8100EF87D4 /* Build configuration list for PBXProject "CandyWrapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 40CECEDD1A47AF8100EF87D4;
+			productRefGroup = 40CECEE81A47AF8100EF87D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40CECEE61A47AF8100EF87D4 /* CandyWrapper */,
+				40CECEF11A47AF8100EF87D4 /* CandyWrapperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40CECEE51A47AF8100EF87D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CECF081A47B26500EF87D4 /* PackingLabel.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CECEF01A47AF8100EF87D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40CECEE21A47AF8100EF87D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CECF061A47B05700EF87D4 /* CWStarburst.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CECEEE1A47AF8100EF87D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CECEFA1A47AF8100EF87D4 /* CandyWrapperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40CECEF51A47AF8100EF87D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40CECEE61A47AF8100EF87D4 /* CandyWrapper */;
+			targetProxy = 40CECEF41A47AF8100EF87D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40CECEFB1A47AF8100EF87D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		40CECEFC1A47AF8100EF87D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		40CECEFE1A47AF8100EF87D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CandyWrapper/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		40CECEFF1A47AF8100EF87D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CandyWrapper/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		40CECF011A47AF8100EF87D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CandyWrapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40CECF021A47AF8100EF87D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CandyWrapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40CECEE11A47AF8100EF87D4 /* Build configuration list for PBXProject "CandyWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CECEFB1A47AF8100EF87D4 /* Debug */,
+				40CECEFC1A47AF8100EF87D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40CECEFD1A47AF8100EF87D4 /* Build configuration list for PBXNativeTarget "CandyWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CECEFE1A47AF8100EF87D4 /* Debug */,
+				40CECEFF1A47AF8100EF87D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40CECF001A47AF8100EF87D4 /* Build configuration list for PBXNativeTarget "CandyWrapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CECF011A47AF8100EF87D4 /* Debug */,
+				40CECF021A47AF8100EF87D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40CECEDE1A47AF8100EF87D4 /* Project object */;
+}
